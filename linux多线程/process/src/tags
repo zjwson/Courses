@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MSG	msg_rcv.c	/^}MSG;$/;"	t	typeref:struct:__anon1	file:
+MSG	msg_snd.c	/^}MSG;$/;"	t	typeref:struct:__anon2	file:
+Person	cal_shm.c	/^}Person;$/;"	t	typeref:struct:__anon3	file:
+age	cal_shm.c	/^    int age;$/;"	m	struct:__anon3	file:
+cmd1	cmd_pipe.c	/^char* cmd1[3] = {"\/bin\/cat", "\/etc\/passwd", NULL};$/;"	v
+cmd2	cmd_pipe.c	/^char* cmd2[3] = {"\/bin\/grep", "root", NULL};$/;"	v
+deposit	account.c	/^double deposit(Account* a, double amt)$/;"	f
+destroy_pipe	tell.c	/^void destroy_pipe(){$/;"	f
+end	msg_rcv.c	/^    int end;$/;"	m	struct:__anon1	file:
+end	msg_snd.c	/^    int end;$/;"	m	struct:__anon2	file:
+fd	tell.c	/^static int fd[2];$/;"	v	file:
+get_balance	account.c	/^double get_balance(Account* a)$/;"	f
+init	tell.c	/^void init(){$/;"	f
+main	account_test.c	/^int main(){$/;"	f
+main	add.c	/^int main(){$/;"	f
+main	broken_pipe_r.c	/^int main(){$/;"	f
+main	cal_shm.c	/^int main(){$/;"	f
+main	cmd_pipe.c	/^int main(){$/;"	f
+main	co_process.c	/^int main(){$/;"	f
+main	fifo_read.c	/^int main(int argc, char* argv[]){$/;"	f
+main	fifo_write.c	/^int main(int argc, char* argv[]){$/;"	f
+main	msg_rcv.c	/^int main(int argc, char* argv[]){$/;"	f
+main	msg_snd.c	/^int main(int argc, char* argv[]){$/;"	f
+name	cal_shm.c	/^    char* name;$/;"	m	struct:__anon3	file:
+notify_pipe	tell.c	/^void notify_pipe(){$/;"	f
+sex	cal_shm.c	/^    char sex;$/;"	m	struct:__anon3	file:
+start	msg_rcv.c	/^    int start;$/;"	m	struct:__anon1	file:
+start	msg_snd.c	/^    int start;\/\/消息数据本身$/;"	m	struct:__anon2	file:
+type	msg_rcv.c	/^    long type;$/;"	m	struct:__anon1	file:
+type	msg_snd.c	/^    long type;\/\/消息类型$/;"	m	struct:__anon2	file:
+wait_pipe	tell.c	/^void wait_pipe(){$/;"	f
+withdraw	account.c	/^double withdraw(Account* a, double  amt)$/;"	f

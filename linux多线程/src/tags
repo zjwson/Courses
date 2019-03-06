@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+N	reader_writer2.c	21;"	d	file:
+OperArg	account_test.c	/^}OperArg;$/;"	t	typeref:struct:__anon3	file:
+Result	pthread_cal.c	/^}Result;$/;"	t	typeref:struct:__anon1	file:
+Result	pthread_cal2.c	/^}Result;$/;"	t	typeref:struct:__anon4	file:
+Storage	reader_writer.c	/^}Storage;$/;"	t	typeref:struct:__anon2	file:
+Storage	reader_writer2.c	/^}Storage;$/;"	t	typeref:struct:__anon5	file:
+account	account_test.c	/^    Account* account;$/;"	m	struct:__anon3	file:
+amt	account_test.c	/^    double amt;$/;"	m	struct:__anon3	file:
+check_fn	account_test.c	/^void* check_fn(void* arg)$/;"	f
+cond	pthread_cal.c	/^    pthread_cond_t cond;\/\/条件变量$/;"	m	struct:__anon1	file:
+cond	pthread_cal2.c	/^    pthread_cond_t cond;\/\/条件变量$/;"	m	struct:__anon4	file:
+counter	pthread_cal2.c	/^    int counter;\/\/用于获取计算结果的线程的个数$/;"	m	struct:__anon4	file:
+create_account	account.c	/^Account* create_account(int code,  double  balance)$/;"	f
+deposit	account.c	/^double deposit(Account* a, double amt)$/;"	f
+deposit_fn	account_test.c	/^void* deposit_fn(void* arg)$/;"	f
+destroy_account	account.c	/^void  destroy_account(Account* a)$/;"	f
+get_balance	account.c	/^double get_balance(Account* a)$/;"	f
+get_data	reader_writer.c	/^int get_data(Storage* s){$/;"	f
+get_data	reader_writer2.c	/^int get_data(Storage* s){$/;"	f
+get_fn	pthread_cal.c	/^void* get_fn(void* arg){$/;"	f
+get_fn	pthread_cal2.c	/^void* get_fn(void* arg){$/;"	f
+get_fn	reader_writer2.c	/^void* get_fn(void* arg){$/;"	f
+get_th	reader_writer.c	/^void* get_th(void* arg){$/;"	f
+is_wait	pthread_cal.c	/^    int is_wait;\/\/用户给出用于判断的条件$/;"	m	struct:__anon1	file:
+main	account_test.c	/^int  main(){$/;"	f
+main	pthread_cal.c	/^int main(){$/;"	f
+main	pthread_cal2.c	/^int main(){$/;"	f
+main	reader_writer.c	/^int main(){$/;"	f
+main	reader_writer2.c	/^int main(){$/;"	f
+mutex	pthread_cal.c	/^    pthread_mutex_t mutex;\/\/互斥锁$/;"	m	struct:__anon1	file:
+mutex	pthread_cal2.c	/^    pthread_mutex_t mutex;\/\/互斥锁$/;"	m	struct:__anon4	file:
+name	account_test.c	/^    char name[20];$/;"	m	struct:__anon3	file:
+r_wait	reader_writer.c	/^    int r_wait;$/;"	m	struct:__anon2	file:
+r_wait	reader_writer2.c	/^    int r_wait;$/;"	m	struct:__anon5	file:
+rc	reader_writer.c	/^    pthread_cond_t  rc;$/;"	m	struct:__anon2	file:
+rc	reader_writer2.c	/^    pthread_cond_t rc;$/;"	m	struct:__anon5	file:
+res	pthread_cal.c	/^    int res;$/;"	m	struct:__anon1	file:
+res	pthread_cal2.c	/^    int res;$/;"	m	struct:__anon4	file:
+rm	reader_writer.c	/^    pthread_mutex_t rm;$/;"	m	struct:__anon2	file:
+rm	reader_writer2.c	/^    pthread_mutex_t rm;$/;"	m	struct:__anon5	file:
+set_data	reader_writer.c	/^void set_data(Storage* s, int value){$/;"	f
+set_data	reader_writer2.c	/^void set_data(Storage* s, int value){$/;"	f
+set_fn	pthread_cal.c	/^void* set_fn(void* arg){$/;"	f
+set_fn	pthread_cal2.c	/^void* set_fn(void* arg){$/;"	f
+set_fn	reader_writer2.c	/^void* set_fn(void* arg){$/;"	f
+set_th	reader_writer.c	/^void* set_th(void* arg){$/;"	f
+value	reader_writer.c	/^    int value;$/;"	m	struct:__anon2	file:
+value	reader_writer2.c	/^    int value;$/;"	m	struct:__anon5	file:
+w_ready	reader_writer2.c	/^    int w_ready;$/;"	m	struct:__anon5	file:
+w_wait	reader_writer.c	/^    int w_wait;$/;"	m	struct:__anon2	file:
+w_wait	reader_writer2.c	/^    int w_wait;$/;"	m	struct:__anon5	file:
+wc	reader_writer.c	/^    pthread_cond_t  wc;$/;"	m	struct:__anon2	file:
+wc	reader_writer2.c	/^    pthread_cond_t wc;$/;"	m	struct:__anon5	file:
+withdraw	account.c	/^double withdraw(Account* a, double  amt)$/;"	f
+withdraw_fn	account_test.c	/^void* withdraw_fn(void* arg)$/;"	f
+wm	reader_writer.c	/^    pthread_mutex_t wm;$/;"	m	struct:__anon2	file:
+wm	reader_writer2.c	/^    pthread_mutex_t wm;$/;"	m	struct:__anon5	file:

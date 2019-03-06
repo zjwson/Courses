@@ -1,0 +1,21 @@
+
+一.线程终止方式
+
+    1.pthread_cancel：线程可被同一进程的其他线程取消
+    2.pthread_exit
+    3.pthread_join：主线程调用病阻塞，可通过传参获取子线程的返回值.
+
+二.线程清理和控制函数
+    
+    void pthread_cleanup_push(void(*rtn)(void*), void* arg);
+    void pthread_cleanup_pop(int excute);
+    返回：成功返回0，失败返回错误编号
+
+    说明：这一组函数是成对出现的
+    while(excute == true){
+        //执行线程清理函数
+    }
+    
+    触发线程调用清理函数的动作:
+        pthread_exit和pthread_cancel会触发清理函数，但是具体执行不执行还要看excute的值。
+

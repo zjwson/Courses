@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_SIZE	6_2_readv_writev.c	15;"	d	file:
+WORKER_THREAD_NUM	8_4_Reactor.cpp	21;"	d	file:
+WORKER_THREAD_NUM	8_4_Reactor1.cpp	20;"	d	file:
+accept_thread_func	8_4_Reactor.cpp	/^void* accept_thread_func(void* arg){$/;"	f
+accept_thread_func	8_4_Reactor1.cpp	/^void* accept_thread_func(void* arg){$/;"	f
+bdaemon_run	8_4_Reactor.cpp	/^void bdaemon_run(){$/;"	f
+bdaemon_run	8_4_Reactor1.cpp	/^void bdaemon_run(){$/;"	f
+create_server_listener	8_4_Reactor.cpp	/^bool create_server_listener(const char*  ip, short port){$/;"	f
+create_server_listener	8_4_Reactor1.cpp	/^bool create_server_listener(const char*  ip, short port){$/;"	f
+g_acceptcond	8_4_Reactor.cpp	/^pthread_cond_t g_acceptcond;$/;"	v
+g_acceptcond	8_4_Reactor1.cpp	/^pthread_cond_t g_acceptcond;$/;"	v
+g_acceptmutex	8_4_Reactor.cpp	/^pthread_mutex_t g_acceptmutex;  $/;"	v
+g_acceptmutex	8_4_Reactor1.cpp	/^pthread_mutex_t g_acceptmutex;  $/;"	v
+g_acceptthreadid	8_4_Reactor.cpp	/^pthread_t g_acceptthreadid = 0;$/;"	v
+g_acceptthreadid	8_4_Reactor1.cpp	/^pthread_t g_acceptthreadid = 0;$/;"	v
+g_bStop	8_4_Reactor.cpp	/^bool g_bStop = false;$/;"	v
+g_bStop	8_4_Reactor1.cpp	/^bool g_bStop = false;$/;"	v
+g_clientmutex	8_4_Reactor.cpp	/^pthread_mutex_t g_clientmutex;  $/;"	v
+g_clientmutex	8_4_Reactor1.cpp	/^pthread_mutex_t g_clientmutex;  $/;"	v
+g_cond	8_4_Reactor.cpp	/^pthread_cond_t g_cond \/*= PTHREAD_COND_INITIALIZER*\/;  $/;"	v
+g_cond	8_4_Reactor1.cpp	/^pthread_cond_t g_cond \/*= PTHREAD_COND_INITIALIZER*\/;  $/;"	v
+g_epollfd	8_4_Reactor.cpp	/^int g_epollfd = 0;$/;"	v
+g_epollfd	8_4_Reactor1.cpp	/^int g_epollfd = 0;$/;"	v
+g_listClients	8_4_Reactor.cpp	/^std::list<int> g_listClients;  $/;"	v
+g_listClients	8_4_Reactor1.cpp	/^std::list<int> g_listClients;  $/;"	v
+g_listenfd	8_4_Reactor.cpp	/^int g_listenfd = 0;$/;"	v
+g_listenfd	8_4_Reactor1.cpp	/^int g_listenfd = 0;$/;"	v
+g_mutex	8_4_Reactor.cpp	/^pthread_mutex_t g_mutex \/*= PTHREAD_MUTEX_INITIALIZER*\/;  $/;"	v
+g_mutex	8_4_Reactor1.cpp	/^pthread_mutex_t g_mutex \/*= PTHREAD_MUTEX_INITIALIZER*\/;  $/;"	v
+g_threadid	8_4_Reactor.cpp	/^pthread_t g_threadid[WORKER_THREAD_NUM] = { 0 };  $/;"	v
+g_threadid	8_4_Reactor1.cpp	/^pthread_t g_threadid[WORKER_THREAD_NUM] = { 0 };  $/;"	v
+main	6_2_readv_writev.c	/^int main(int argc, char* argv[]){$/;"	f
+main	6_3_sendfile.c	/^int main(int argc, char* argv[]){$/;"	f
+main	6_4__splice.c	/^int main(){$/;"	f
+main	8_4_Reactor.cpp	/^int main(int argc, char* argv[]){$/;"	f
+main	8_4_Reactor1.cpp	/^int main(int argc, char* argv[]){$/;"	f
+min	8_4_Reactor.cpp	23;"	d	file:
+min	8_4_Reactor1.cpp	22;"	d	file:
+prog_exit	8_4_Reactor.cpp	/^void prog_exit(int signo){$/;"	f
+prog_exit	8_4_Reactor1.cpp	/^void prog_exit(int signo){$/;"	f
+release_client	8_4_Reactor.cpp	/^void release_client(int clientfd){$/;"	f
+release_client	8_4_Reactor1.cpp	/^void release_client(int clientfd){$/;"	f
+status_line	6_2_readv_writev.c	/^static const char* status_line[2] = {"200 OK", "500 Internal server error"};$/;"	v	file:
+worker_thread_func	8_4_Reactor.cpp	/^void* worker_thread_func(void* arg){$/;"	f
+worker_thread_func	8_4_Reactor1.cpp	/^void* worker_thread_func(void* arg){$/;"	f
